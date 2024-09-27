@@ -1,0 +1,433 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    display: flex;
+    background-color: #0F1111;
+    height: 60px;
+    align-items: center;
+    justify-content: space-evenly;
+    color : #FFFFFF;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid #FFFFFF;
+
+}
+
+.logo {
+    
+    height:50px;
+    width: 100px;
+}
+
+.logo_img {
+    background-image: url(./amazon_logo.png);
+    background-size: cover;
+    height: 40px;
+    width: 100px;
+}
+
+.add-first {
+    margin-left: 14px;
+    color: #CCCCCC;
+    font-size: 0.77rem;
+}
+
+.location_pin {
+    display: flex;
+    color: #FFFFFF;
+    gap: 3px;
+}
+
+.location_pic p {
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search-border {
+    border: 2px solid transparent;
+}
+
+.search-border:hover {
+    border: 2px solid rgb(255, 140, 0);
+    
+}
+
+.select {
+    height : 40px;
+    width : 51px;
+    font-size: 12px;
+    color : #0F1111;
+    border : 0;
+    background-color: #E6E6E6;
+    border-top-left-radius : 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.search_input {
+    height : 40px;
+    width : 720px;
+    border : 0;
+}
+
+.search_icon {
+    display: flex;
+    background-color: #febd68;
+    color : black;
+    align-items: center;
+    justify-content: center;
+    height : 40px;
+    width : 45px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border : none;
+    font-size: 18px;
+}
+
+.country {
+    display: flex;
+}
+
+.flag {
+    background-image: url(./flag.jpg);
+    background-size: cover;
+    height : 16px;
+    width : 21px;
+}
+
+.lang {
+    font-weight: bold;
+    font-size: 14px;
+    color : #FFFFFF;
+    background-color: #0F1111;
+    border: none;
+}
+
+.sign-first {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.accounts {
+    background-color: #0F1111;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.returns-first {
+    font-size: 12px;
+    margin-left: 4px;
+}
+
+.orders {
+    background-color: #0F1111;
+    border: none;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.cart {
+    display: flex;
+    font-size: 14px;
+    gap : 2px;
+}
+
+.mini-nav {
+    display: flex;
+    background-color: #232F3E;
+    height: 39px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color : #FFFFFF;
+}
+
+.all-menu {
+    color:#FFFFFF;
+    display: flex ;
+    gap : 3px;
+}
+
+.all-options {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.prime select {
+    background-color: #232F3E;
+    border : none;
+    color : #FFFFFF;
+}
+
+.panel {
+    font-size: 14px;
+    margin : 5px 0px 6px;
+    padding : 8px 9px;
+    font-weight: normal;
+}
+
+.amazon-img {
+    display: flex;
+    color : #FFFFFF;
+    font-size: 16px;
+    margin : 5px 0px 6px;
+    padding : 8px 9px;
+    align-items: center;
+    gap : 3px;
+}
+
+.amazon-icon img {
+    height : 30px;
+    width : 45px;
+    border : none;
+}
+
+.main-img {
+    background-image: url(./main-bg.jpg);
+    background-size: cover;
+    height : 250px;
+    mask-image: linear-gradient(to bottom, #000000 90%, transparent 100%);
+}
+
+.boxlayer{
+    display: flex;
+    justify-content: space-evenly;
+    gap : 15px;
+    height: 400px;
+    padding: 0px 24px 20px 25px;
+    background-color: transparent;
+}
+
+.box {
+    background-color: #FFFFFF;
+    height: 370px;
+    width: 420px;
+    padding: 20px 15px;
+    border: 2px solid #0F1111;
+}
+
+.heading {
+    color : #0F1111;
+    font-size:small;
+    margin-bottom: 15px;
+}
+
+.img-layer1 {
+    
+    display: flex;
+    gap : 15px;
+    height : 115px;
+    width : 100%;
+    font-size: 12px;
+}
+
+.img-layer2 {
+    margin-top: 45px;
+    display: flex;
+    gap : 15px;
+    height : 115px;
+    width : 100%;
+    font-size: 12px;
+}
+
+.prod1 {
+    background-image: url(./bedsheet.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod1 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod2 {
+    background-image: url(./figurines.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod2 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod3 {
+    background-image: url(./storage.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod3 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod4 {
+    background-image: url(./light.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod4 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod5 {
+    background-image: url(./ac.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod5 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod6 {
+    background-image: url(./fridge.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod6 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod7 {
+    background-image: url(./microwave.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod7 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod8 {
+    background-image: url(./wm.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod8 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod9 {
+    background-image: url(./boat.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod9 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod10 {
+    background-image: url(./boult.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod10 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod11 {
+    background-image: url(./noise.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod11 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod12 {
+    background-image: url(./zebronics.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod12 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod13 {
+    background-image: url(./clean.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod13 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod14 {
+    background-image: url(./tyre.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod14 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod15 {
+    background-image: url(./helmet.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod15 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.prod16 {
+    background-image: url(./vacuum.jpg);
+    height : 100%;
+    width : 155px;
+}
+
+.prod16 p {
+    margin-top: 115px;
+    line-height: 18px;
+}
+
+.box a {
+    color: #007185; 
+    margin-top: 100px;
+}
+
+.box a:hover{
+    color : rgb(255, 89, 0);
+}
