@@ -5,6 +5,11 @@
     border: border-box;
 }
 
+html,body {
+    width: 100%;
+    height: 100%;
+} 
+
 .navbar {
     display: flex;
     background-color: #0F1111;
@@ -430,4 +435,93 @@
 
 .box a:hover{
     color : rgb(255, 89, 0);
+}
+
+#footer {
+    width: 100%;
+    height: 100xvh;
+}
+
+#back {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #37475a;
+    text-align: center;
+    padding : 15px 0px;
+}
+
+#back h3 {
+    color : white;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#links {
+    background-color: #232f3e;
+    padding: 35px 230px 50px 230px;
+    display: flex;
+    gap : 150px;
+}
+
+#links h3 {
+    color : white;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+#links a {
+    color : #dddddd;
+    font-size: 14px;
+    font-weight: 525;
+    text-decoration: none;
+}
+
+#links a:hover {
+    text-decoration: underline;
+}
+
+#part1, #part2, #part3, #part4 {
+    display: flex;
+    flex-direction: column;
+    gap : 15px;
+}
+
+#buttons {
+    background-color: #232f3e;
+    padding: 10px 560px 50px ;
+    display: flex;
+    align-items: center;
+}
+
+#buttons button {
+    background-color: #232f3e;
+    box-shadow: none;
+    border: 1px solid #dddddd;
+    padding : 8px;
+    color : #dddddd;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+#buttons #amazon-end {
+    margin-right: 90px;
+}
+
+#minor-links {
+    background-color: #131a22;
+    padding: 20px;
+    display: flex;
+    gap : 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#minor-links a {
+    color : white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#minor-links a:hover {
+    text-decoration: underline;
 }
